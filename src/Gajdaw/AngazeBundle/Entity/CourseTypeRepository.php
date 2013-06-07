@@ -16,6 +16,7 @@ class CourseTypeRepository extends EntityRepository
     {
         return $this->findBy(array(), array('name' => 'ASC'));
     }
+    /** Niepotrzebny komentarz */
 }
 
 

@@ -28,4 +28,7 @@ Wycofujemy ³±czenie
 git reset --hard HEAD@{1}
 i powtarzamy punkt 2.
 
+Mo¿na tak¿e: procedura arawia i potem od punktu 2
+
+
 

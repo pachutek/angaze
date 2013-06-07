@@ -17,7 +17,3 @@ Jeśli nie to błąd wymagający konsultacji.
 Pobieramy brakujące rewizje do gałęzi master
 
 git merge origin/master --ff-only
-
-
-
-

@@ -14,6 +14,6 @@ class FacultyRepository extends EntityRepository
 {
     public function findAll()
     {
-        return $this->findBy(array(), array('name' => 'ASC'));
+        return $this->findBy(array(), array('name' => 'ASC')); //asd
     }
 }

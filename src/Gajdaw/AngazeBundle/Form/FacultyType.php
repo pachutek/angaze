@@ -19,11 +19,11 @@ class FacultyType extends AbstractType
     {
         $resolver->setDefaults(array(
             'data_class' => 'Gajdaw\AngazeBundle\Entity\Faculty'
-        ));
+        )); //asd
     }
 
     public function getName()
     {
-        return 'gajdaw_angazebundle_facultytype';
+        return 'gajdaw_angazebundle_facultytype'; //asd
     }
 }

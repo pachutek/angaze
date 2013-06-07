@@ -1,0 +1,34 @@
+
+1. Tworzymy ga³±¼
+
+git checkout -t t-abc master
+//rewizje
+
+
+2. Przesy³anie ga³êzi na serwer
+a) aktualizacja
+b) prostowanie
+
+   git checkout t-abc
+   git rebase master
+
+c) £±czenie
+    git checkout master
+    git merge --no-ff t-abc
+
+d) przesy³anie
+    git push
+
+SUKCES: usuwamy ga³±¼ t-abc
+git checkout master
+git branch -d t-abc
+
+B£¡D:
+Wycofujemy ³±czenie
+git reset --hard HEAD@{1}
+i powtarzamy punkt 2.
+
+Mo¿na tak¿e: procedura arawia i potem od punktu 2
+
+
+

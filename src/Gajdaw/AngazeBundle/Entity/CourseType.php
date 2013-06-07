@@ -21,6 +21,8 @@ class CourseType
      */
     private $id;
 
+    /** Niepotrzebny komentarz */
+
     /**
      * @var string
      *

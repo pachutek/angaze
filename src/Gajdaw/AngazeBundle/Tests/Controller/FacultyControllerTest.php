@@ -15,7 +15,7 @@ class FacultyControllerTest extends WebTestCase
         $this->assertEquals(1, $crawler->filter('td:contains("Matematyczno-Przyrodniczy")')->count(), 'Missing element td:contains("Matematyczno-Przyrodniczy")');
         $this->assertEquals(1, $crawler->filter('td:contains("Dziennikarstwa")')->count(), 'Missing element td:contains("Dziennikarstwa")');
 
-        $rekordy = array();
+        $rekordy = array(); //ad
         $crawler = $crawler->filter('table.records_list > tbody > tr > td:nth-child(2)');
         foreach ($crawler as $domElement) {
             $rekordy[] = $domElement->nodeValue;

@@ -11,8 +11,13 @@ git s
 
 zwraca informację [Behind: xxx]
 
-
-
 Jeśli nie to błąd wymagający konsultacji.
 
-git pull
+
+Pobieramy brakujące rewizje do gałęzi master
+
+git merge origin/master --ff-only
+
+
+
+

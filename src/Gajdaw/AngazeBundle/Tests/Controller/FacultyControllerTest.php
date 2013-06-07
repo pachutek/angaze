@@ -20,7 +20,7 @@ class FacultyControllerTest extends WebTestCase
         foreach ($crawler as $domElement) {
             $rekordy[] = $domElement->nodeValue;
         }
-        //wyniki, które znamy
+        //wyniki, które znamy !
         //na podstawie pliku yaml prawda?
         $expected = array(
             'Dziennikarstwa',

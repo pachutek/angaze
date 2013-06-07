@@ -17,7 +17,7 @@ class EmployeeType extends AbstractType
             ->add('room'); //pokoj
         ;
     }
-
+    //otka
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(

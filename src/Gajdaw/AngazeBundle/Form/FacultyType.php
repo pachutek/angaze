@@ -24,6 +24,6 @@ class FacultyType extends AbstractType
 
     public function getName()
     {
-        return 'gajdaw_angazebundle_facultytype';
+        return 'gajdaw_angazebundle_facultytype'; //asd
     }
 }
